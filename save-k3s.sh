@@ -28,5 +28,5 @@ curl -L -o sha256sum-s390x.txt https://github.com/k3s-io/k3s/releases/download/v
 curl -L -o v1.28.2+k3s1.zip https://github.com/k3s-io/k3s/archive/refs/tags/v1.28.2+k3s1.zip
 curl -L -o v1.28.2+k3s1.tar.gz https://github.com/k3s-io/k3s/archive/refs/tags/v1.28.2+k3s1.tar.gz
 curl -L -o install.sh https://get.k3s.io/
+cp ../../preparation.sh .
 popd
-
